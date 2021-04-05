@@ -47,3 +47,28 @@ nav ul {
   justify-content: space-between;
   align-items: center;
 }
+
+nav a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.125rem;
+  background-color: #bd027d;
+  border: 2px solid #960062;
+  border-radius: 6px;
+  padding: .5em .8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #eccee2;
+}
+
+nav a:hover {
+  background-color: #960062;
+}
+
+main {
+  padding: 0 1rem;
+}
+
+main p {
+  margin: 0 0 1.5rem;
+}
