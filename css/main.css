@@ -29,7 +29,7 @@ header {
   margin-bottom: 1.5rem;
 }
 
-header h1 {
+header > h1 {
   grid-area: center;
   z-index: 0;
   margin: 0;
@@ -83,6 +83,12 @@ h2 {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
+section {
+  padding: 1.5rem;
+  border-bottom: 2px #afafaf;
+  border-top: 2px solid #afafaf;
+}
+
 section ul {
   margin: 0;
   padding: 0;
@@ -90,6 +96,7 @@ section ul {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax()) */
   gap: 1rem;
 }
 
@@ -137,4 +144,20 @@ section div img {
   width: 1em;
   height: 1em;
   margin-right: .5em;
+}
+
+section div strong {
+  font-weight: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 0.875rem;
+  align-items: center;
+}
+
+footer a {
+  color: #000;
 }
