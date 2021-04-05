@@ -122,7 +122,19 @@ section li > img {
 
 section div {
   grid-area: top;
+  border-radius: 1em 0 0 1em;
+  padding: 0 .5;
+  z-index: 1;
+  font-style: italic;
 
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
+  justify-self: end;
+}
+
+section div img {
+  width: 1em;
+  height: 1em;
+  margin-right: .5em;
 }
