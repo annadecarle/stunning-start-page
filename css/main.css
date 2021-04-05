@@ -114,3 +114,15 @@ section h3 {
   font-size: 1.125rem;
   z-index: 1;
 }
+
+section li > img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+section div {
+  grid-area: top;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
