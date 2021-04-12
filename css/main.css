@@ -24,8 +24,8 @@ header {
   grid-template-columns: auto 10rem auto;
   grid-template-rows: auto 1.5rem;
   grid-template-areas:
-  "left center right"
-  ". center .";
+    "left center right"
+    ". center .";
   margin-bottom: 1.5rem;
 }
 
@@ -96,6 +96,7 @@ section ul {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   /* grid-template-columns: repeat(auto-fit, minmax()) */
   gap: 1rem;
 }
@@ -108,9 +109,9 @@ section ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom";
+    "top"
+    "middle"
+    "bottom";
 }
 
 section h3 {
@@ -130,7 +131,7 @@ section li > img {
 section div {
   grid-area: top;
   border-radius: 1em 0 0 1em;
-  padding: 0 .5;
+  padding: 0 .5em;
   z-index: 1;
   font-style: italic;
 
@@ -154,7 +155,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  font-size: 0.875rem;
+  font-size: .875rem;
   align-items: center;
 }
 
